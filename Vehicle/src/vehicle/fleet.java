@@ -155,13 +155,12 @@ public class fleet {
             p.setVin(t);
             tInt = input.nextInt();
             p.setYear(tInt);*/
- /*this code could work, but is horrendously inefficient in its current state.
+         /*this code could work, but is horrendously inefficient in its current state.
             instead, create an if statement nested in a while loop for each vehicle type
             i.e. while file has input, if the letter read in is of type P, then read in 
-            data specifically for PassengerVan, in specific order. This way the method can automatically
-            , and accurately, create the formatted file to be saved by  saveFleet method
-                 */
-                //adds vehicles to fleetList
+            data specifically for PassengerVan, in specific order. This way the method can automatically,
+            and accurately, create the formatted file to be saved by  saveFleet method*/
+                
             }
         } catch (FileNotFoundException ex) {
             Logger.getLogger(fleet.class.getName()).log(Level.SEVERE, null, ex);
