@@ -24,8 +24,11 @@ public class Driver {
         CargoVan cvInfo = new CargoVan();
         fleet fInfo = new fleet();
         
-        fInfo.loadFleet(args[1]);
         
+            
+        fInfo.loadFleet(args[0]);
+        fInfo.saveFleet(args[0]);
+               
         
         
         
@@ -41,11 +44,11 @@ public class Driver {
         
         
          //implemetation of project classes for lvl 2
-         JOptionPane.showMessageDialog(null, vInfo.toString());
-         JOptionPane.showMessageDialog(null, aInfo.toString());
+         JOptionPane.showMessageDialog(null, fInfo.toString());
+         /*JOptionPane.showMessageDialog(null, aInfo.toString());
          JOptionPane.showMessageDialog(null, vanInfo.toString());
          JOptionPane.showMessageDialog(null, pvInfo.toString());
-         JOptionPane.showMessageDialog(null, cvInfo.toString());
+         JOptionPane.showMessageDialog(null, cvInfo.toString());*/
          
         
     }
